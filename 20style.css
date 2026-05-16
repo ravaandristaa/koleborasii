@@ -1,0 +1,114 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* === BODY === */
+body {
+  background: #b3e5fc;
+  color: #004e64;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* === NAVBAR === */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #004e64;
+  padding: 10px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #ffcd3c;
+}
+
+.ctn {
+  background: #ffcd3c;
+  color: #004e64 !important;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* === ABOUT SECTION === */
+.about {
+  padding: 80px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  max-width: 800px;
+}
+
+.about-text h2,
+.about-text h3 {
+  color: #004e64;
+  margin-bottom: 10px;
+}
+
+.about-text p,
+.about-text ul,
+.about-text ol {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.about-text ul,
+.about-text ol {
+  padding-left: 20px;
+}
+.next-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.next-btn {
+  display: inline-block;
+  background: #004e64;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background: #ffcd3c;
+  color: #004e64;
+}
