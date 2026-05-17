@@ -26,18 +26,18 @@ body {
   z-index: 100;
 }
 
+.navbar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
   color: #fff;
   font-size: 22px;
-}
-
-.navbar img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
 }
 
 .nav-links {
@@ -62,10 +62,11 @@ body {
   padding: 8px 15px;
   background: #ffcd3c;
   border-radius: 30px;
-  color: white !important;
+  color: white;
 }
 
-/* === BUNDLING === */
+/* === CONTENT AREA === */
+
 .bundling {
   padding-top: 100px;
 }
@@ -74,7 +75,7 @@ table {
   width: 100%;
 }
 
-.bundling img {
+img {
   width: 500px;
 }
 
@@ -87,46 +88,11 @@ p, .model, .kesimpulan {
   margin-left: 30px;
 }
 
-.div_class_line p {
-  margin-left: 30px;
-}
-
-/* === FOOTER === */
-.footer {
-  background-color: #f2f2f2;
-  padding: 30px 0;
-  margin-top: 50px;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-}
-
-.footer-column h3 {
-  margin-bottom: 15px;
-}
-
-.footer-column ul {
-  list-style: none;
-}
-
-.footer-column ul li {
-  margin: 5px 0;
-}
-
-.footer-column a {
-  text-decoration: none;
-  color: #004e64;
-}
-
-.footer-column a:hover {
-  text-decoration: underline;
-}
+/* === BUTTON KEMBALI === */
 .next-container {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px; /* jarak besar */
+  margin-bottom: 40px;
 }
 
 .next-btn {
@@ -143,5 +109,27 @@ p, .model, .kesimpulan {
 
 .next-btn:hover {
   background: #ffcd3c;
+  color: #004e64;
+}
+
+/* === FOOTER === */
+.footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column a {
+  text-decoration: none;
   color: #004e64;
 }

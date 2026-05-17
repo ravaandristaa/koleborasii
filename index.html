@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title Document</title>
-    <link rel="stylesheet" href="../Paket 1/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
@@ -29,103 +29,97 @@
         <table border="1" width="800px">
             <tr>
                 <td rowspan="4">
-                    <img src="../../img/paket nongki.jpg" alt="Paket 1">
+                    <img src="../../img/PaketMuna.jpg" alt="Paket 1">
                 </td>
                 <td colspan="4">
                     <p>Misal :</p>
-                    <p>x = Harga 1 Lampu Hias dari Cup</p>
-                    <p>y = Harga 1 Tempat Flashdisk</p>
-                    <p>z = Harga 1 Tas Laptop</p>
+                    <p>x = Harga 1 Ecoprint mug</p>
+                    <p>y = Harga 1 Lampu Hias</p>
+                    <p>z = Harga 1 Jam Kertas</p>
                 </td>
             </tr>
+
             <tr>
                 <td colspan="4">
                     <p>Model Matematika :</p>
                     <ol class="model">
-                        <li>3x + y + z = 130.000</li>
-                        <li>x + 3y + z = 130.000</li>
-                        <li>2x + y + 2z = 135.000</li>
+                        <li>3x + y + z = 158.000</li>
+                        <li>2x + y + 2z = 170.000</li>
+                        <li>2x + 3y + 2z = 250.000</li>
                     </ol>
                 </td>
             </tr>
+
             <tr>
-                <td colspan="4">
-                    <p>Penyelesaian:</p>
-                </td>
+                <td colspan="4"><p>Penyelesaian:</p></td>
             </tr>
+
             <tr>
                 <td>
-                    <p>Eliminasi pers 1. dan 3. </p>
+                    <p>Eliminasi pers 1 dan 2</p>
                     <div class="div_class_line">
-                        <p>p : 3x + y + z = 130.000 | *2 | 6x + 2y + 2z = 260.000</p>
-                        <p>2x + y + 2z = 135.000 | *1 | x + y + 2z = 135.000</p>
-                        <p>4x + y = 125.000 (pers. 4)</p>
+                        <p>3x + y + z = 158.000</p>
+                        <p>2x + y + 2z = 170.000</p>
+                        <p>----------------------------</p>
+                        <p>y + 4z = 200.000 (pers. 4)</p>
                     </div>
                 </td>
+
                 <td>
-                    <p>Eliminasi pers 1. dan 2.</p>
+                    <p>Eliminasi pers 2 dan 3</p>
                     <div class="div_class_line">
-                        <p>p : 3x + y + z = 130.000 </p>
-                        <p>x + 3y + z = 130.000 </p>
-                        <p>2x - 2y = 0 (pers. 5)</p>
-                        
+                        <p>2x + y + 2z = 170.000</p>
+                        <p>2x + 3y + 2z = 250.000</p>
+                        <p>2y = 80.000</p>
+                        <p>y = 40.000</p>
                     </div>
                 </td>
             </tr>
+
             <tr>
-                <td></td>
                 <td>
-                    <p>Eliminasi pers 4. dan 5. </p>
+                    <p>Substitusi y = 40.000 ke pers 4</p>
                     <div class="div_class_line">
-                        <p> 4x + y = 125.000 | *2 | 8x + 2y = 250.000</p>
-                        <p>2x - 2y = 0 | *4 | 8x - 8y = 0</p>
-                        <p>10y = 250.000</p>
-                        <p>y = 250.000 : 10</p>
-                        <p>y = 25.000</p>
+                        <p>y + 4z = 200.000</p>
+                        <p>40.000 + 4z = 200.000</p>
+                        <p>4z = 160.000</p>
+                        <p>z = 40.000</p>
                     </div>
                 </td>
-                <td>
-                    <p>Substitusi y = 25.000 ke pers 4.</p>
-                    <div class="div_class_line">
-                        <p>4x + y = 125.000</p>
-                        <p>4x + 25 = 125.000</p>
-                        <p>4x = 125 - 25</p>
-                        <p>4x = 100.000</p>
-                        <p>x = 25.000</p>
-                        </div>
-                </td>
             </tr>
+
             <tr>
                 <td></td>
                 <td colspan="4">
-                    <p>Substitusi x = 25.000 dan y = 25.000 ke pers 2.</p>
+                    <p>Substitusi y = 40.000 dan z = 40.000 ke pers 1</p>
                     <div class="div_class_line">
-                        <p>3x + y + z = 130.000</p>
-                        <p>25(3) + 25 + z = 130.000</p>
-                        <p>75 + 25 + z = 130.000</p>
-                        <p>100.000 + z = 130.000</p>
-                        <p>z = 130.000 - 100.000</p>
-                        <p> z = 30.000</p>
+                        <p>3x + 40.000 + 40.000 = 158.000</p>
+                        <p>3x + 80.000 = 158.000</p>
+                        <p>3x = 78.000</p>
+                        <p>x = 26.000</p>
                     </div>
                 </td>
             </tr>
+
             <tr>
                 <td></td>
                 <td colspan="4">
-                    <p>Jadi, kesimpulanya adalah :</p>
+                    <p>Jadi, kesimpulannya adalah :</p>
                     <ol class="kesimpulan">
-                        <li>Harga 1 Lampu Hias dari Cup = 25.000</li>
-                        <li>Harga 1 Tempat Flashdisk = 25.000</li>
-                        <li>Harga 1 Tas Laptop = 30.000</li>
+                        <li>Harga 1 Ecoprint mug: 25.000</li>
+                        <li>Harga 1 Lampu Hias: 40.000</li>
+                        <li>Harga 1 Jam Kertas: 40.000</li>
                     </ol>
                 </td>
             </tr>
+
         </table>
     </section>
 
+    <!-- BUTTON BACK -->
     <div class="next-container">
-    <a href="../../../index.html" class="next-btn">Kembali</a>
-</div>
+        <a href="../../../index.html" class="next-btn">Kembali</a>
+    </div>
 
     
     <footer class="footer">
@@ -143,7 +137,7 @@
             <div class="footer-column">
                 <h3>Helpful Links</h3>
                 <ul>
-                    <li><a href="#">form</a></li>
+                    <li><a href="#">Form</a></li>
                 </ul>
             </div>
         </div>
